@@ -22,9 +22,9 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **FM Radio Player Vr 2** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @Animemusicarchive6!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **FM Radio Player Vr 2** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @disneygrou!"
 HELP = """🏷️ **Need Help?** 🤔
-__(Join @Yeageristbots For Support)__
+__(Join @disneyteamchat For Support)__
 
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -49,7 +49,7 @@ __(Join @Yeageristbots For Support)__
 \u2022 `unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @Yeageristbotsdev** 👑
+🏷️ **Developer: @doreamonfans1** 👑
 """
 
 
@@ -57,12 +57,12 @@ __(Join @Yeageristbots For Support)__
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/Animemusicarchive6'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/Yeageristbots'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/disneygrou'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/disneyteamchat'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/Animemusicarchive6/3544'),
-        InlineKeyboardButton('Code Ownner', url='https://t.me/I_Am_Only_One_1'),
+        InlineKeyboardButton('owner', url='https://t.me/doreamonfans1'),
+        InlineKeyboardButton(' help Owner', url='https://t.me/Yeageristbotsdev'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
